@@ -1,0 +1,206 @@
+.indepth_pages {
+    width: 100%;
+    position: relative;
+    background-color: white;
+    margin: auto;
+}
+
+#indepth_cover {
+	background-image: url("../images/Portada_Coca.jpg");
+	background-repeat: no-repeat;
+	height: 800px;
+	width: auto;
+	margin: auto;
+}
+
+.indepth_content {
+	position: relative;
+	width: 960px;
+	height: 100%;
+	margin: auto;
+}
+
+#logo {
+	position: relative;
+	width: 415px;
+	height: 150px;
+	margin: auto;
+	top: 315px;
+}
+
+#content {
+	height: 1190px;
+	width: auto;
+	margin: auto;
+	background-color: #ffffff;
+}
+
+.text_content {
+	width: 960px;
+	height: 150px;
+	position: relative;
+	margin: auto;
+	margin-top: 120px;
+}
+
+.gif {
+	width: 150px;
+	height: auto;
+	margin-right: 45px;
+	display: inline-block;
+	float: left;
+}
+
+.gif img {
+	border-radius: 75px;
+}
+
+#middle_text {
+	width: 760px;
+	display: inline-block;
+	float: left;
+	position: relative;
+	top: 45px;
+}
+
+.text {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 24px;
+	color: #de0a25;
+	display: inline-block;
+	float: left;
+	width: 760px;
+	font-weight: 800;
+}
+
+.text span {
+	font-size: 22px;
+	color: #81919b;
+	font-family: 'Open Sans', sans-serif;
+	line-height: 28px;
+	font-weight: 400;
+}
+
+#ejecucion {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 24px;
+	font-weight: 700;
+	color: #de0a25;
+	margin: auto;
+	position: relative;
+	top: 115px;
+	width: 130px;
+}
+
+#indepth_line {
+	position: relative;
+	top: 130px;
+	padding: 10px;
+	border-bottom: solid #81919b 1px;
+}
+
+#indepth_text {
+	position: relative;
+	color: #81919b;
+	font-family: 'Open Sans', sans-serif;
+	width: 75px;
+}
+
+#indepth_text i {
+	color: #de0a25;
+	margin-right: 5px;
+}
+
+#tour {
+	width: 800px;
+	height: 432px;
+	position: relative;
+	margin: auto;
+	top: 150px;
+	margin-bottom: 110px;
+}
+
+#final {
+	height: 530px;
+	width: 100%;
+	background-color: #aa0b1f;
+}
+
+#resultados {
+	position: relative;
+	top: 50px;
+	margin: auto;
+	font-family: 'Open Sans', sans-serif;
+	color: #de0a25;
+	width: 160px;
+	font-size: 24px;
+	font-weight: 800;
+}
+
+#resulta_content {
+	width: 705px;
+	height: 280px;
+	margin: auto;
+	position: relative;
+	top: 100px;
+}
+
+.content_data {
+	width: 160px;
+	height: 310px;
+	display: inline-block;
+	float: left;
+	margin-right: 115px;
+}
+
+.data_img img {
+	border-radius: 75px;
+}
+
+.data_img {
+	margin-bottom: 25px;
+}
+
+.data_number {
+	width: 160px;
+	color: #ffffff;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 54px;
+	font-weight: 800;
+	margin: auto;
+}
+
+.data_name {
+	width: 154px;
+	color: #ffffff;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 24px;
+	margin: auto;
+	text-align: center;
+}
+
+#content_data {
+	width: 155px;
+	height: 310px;
+	display: inline-block;
+	float: left;
+}
+
+@media(max-width: 900px) {
+	.indepth_content {
+	    width: 750px;
+	}
+
+	.text_content {
+	    width: 750px;
+	    height: 78px;
+	}
+
+	.gif {
+		margin-right: 20px;
+	}
+}
+
+@media(max-width: 700px) {
+	
+} 
