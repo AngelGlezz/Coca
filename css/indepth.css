@@ -4,6 +4,7 @@
 	background-position: center;
 	background-color: #000;
 	width: auto;
+	position: relative;
 }
 
 .indepth_content {
@@ -14,15 +15,18 @@
 }
 
 #logo {
-	position: relative;
+	position: absolute;
 	width: 415px;
 	height: 150px;
 	margin: auto;
-	top: 410px;
+	top: 0px;
+	right: 0px;
+	bottom: 0px;
+	left: 0px;
 }
 
 #content {
-	height: 1190px;
+	height: 1146px;
 	width: auto;
 	margin: auto;
 	background-color: #ffffff;
@@ -30,10 +34,10 @@
 
 .text_content {
 	width: 960px;
-	height: 150px;
+	height: 175px;
 	position: relative;
 	margin: auto;
-	margin-top: 120px;
+	margin-top: 100px;
 }
 
 .gif {
@@ -42,6 +46,8 @@
 	margin-right: 45px;
 	display: inline-block;
 	float: left;
+	position: relative;
+    top: 15px;
 }
 
 .gif img {
@@ -53,13 +59,13 @@
 	display: inline-block;
 	float: left;
 	position: relative;
-	top: 45px;
+	top: 40px;
 }
 
 .text {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 24px;
-	color: #de0a25;
+	color: #a3bfbb;
 	display: inline-block;
 	float: left;
 	width: 760px;
@@ -78,7 +84,7 @@
 	font-family: 'Open Sans', sans-serif;
 	font-size: 24px;
 	font-weight: 700;
-	color: #de0a25;
+	color: #a3bfbb;
 	margin: auto;
 	position: relative;
 	top: 115px;
@@ -100,23 +106,23 @@
 }
 
 #indepth_text i {
-	color: #de0a25;
+	color: #a3bfbb;
 	margin-right: 5px;
 }
 
 #tour {
-	width: 800px;
-	height: 432px;
+	width: 640px;
+	height: 360px;
 	position: relative;
 	margin: auto;
-	top: 150px;
-	margin-bottom: 110px;
 }
-
+#tour img {
+    width: 100%;
+}
 #final {
 	height: 530px;
 	width: 100%;
-	background-color: #aa0b1f;
+	background-color: #5a726f;
 }
 
 #resultados {
@@ -124,7 +130,7 @@
 	top: 50px;
 	margin: auto;
 	font-family: 'Open Sans', sans-serif;
-	color: #de0a25;
+	color: #a3bfbb;
 	width: 160px;
 	font-size: 24px;
 	font-weight: 800;
@@ -161,6 +167,7 @@
 	font-size: 54px;
 	font-weight: 800;
 	margin: auto;
+	text-align: center;
 }
 
 .data_name {
@@ -179,14 +186,14 @@
 	float: left;
 }	
 
-@media(max-width: 900px) {
+@media(max-width: 960px) {
 	.indepth_content {
 	    width: 750px;
 	}
 
 	.text_content {
 	    width: 750px;
-	    height: 150px;
+	    height: 205px;
 	    margin-top: 40px;
 	}
 
@@ -194,7 +201,7 @@
 		margin-right: 20px;
 		width: 100px;
 		position: relative;
-    	top: 20px;
+    	top: 10px;
 	}
 
 	.gif img {
@@ -216,28 +223,28 @@
 
 	#tour {
 		width: 750px;
-		height: 406px;
+		height: 422px;
 	}
 
 	#content {
-    	height: 1082px;
+    	height: 1178px;
 	}
 }
 
-@media(max-width: 700px) {
+@media(max-width: 770px) {
 	.indepth_content {
     	width: 550px;
     }
 
     .text_content {
 	    width: 550px;
-	    height: 205px;
+	    height: 290px;
     	margin-top: 0px;
 	}
 
 	#middle_text {
     	width: 430px;
-    	top: 55px;
+    	top: 35px;
 	}
 
 	.text {
@@ -249,7 +256,7 @@
 	}
 
 	#content {
-    	height: 973px;
+    	height: 1145px;
 	}
 
 	#ejecucion {
@@ -262,8 +269,7 @@
 
 	#tour {
 		width: 550px;
-		height: 297px;
-		top: 80px;
+		height: 309px;
 	}
 
 	#resulta_content {
@@ -275,23 +281,18 @@
 	}
 
 	.gif {
-		top: 55px;
+		top: 65px;
 	}
 }
 
-@media(max-width: 500px) {
+@media(max-width: 570px) {
 	.indepth_content {
     	width: 400px;
     }
 
-    #logo {
-    	top: 230px;
-    }
-
     .text_content {
 	    width: 400px;
-	    height: 340px;
-    	margin-top: -120px;
+	    height: 400px;
 	}
 
 	#ejecucion {
@@ -319,13 +320,11 @@
 
 	#tour {
 		width: 400px;
-		height: 216px;
-		margin-bottom: 70px;
-		top: 80px;
+		height: 225px;
 	}
 
 	#content {
-    	height: 1002px;
+    	height: 1180px;
 	}
 
 	#resulta_content {
@@ -377,15 +376,14 @@
 	}
 }
 
-@media(max-width: 400px) {
+@media(max-width: 430px) {
 	.indepth_content {
     	width: 300px;
     }
 
     .text_content {
 	    width: 300px;
-	    height: 370px;
-	    margin-top: -150px;
+	    height: 455px;
 	}
 
 	#middle_text {
@@ -414,8 +412,6 @@
 	#tour {
 		width: 300px;
 		height: 169px;
-		margin-bottom: 50px;
-		top: 80px;
 	}
 
 	#resulta_content {
@@ -473,10 +469,9 @@
 	#logo {
 		width: 300px;
 		height: 110px;
-    	top: 250px;
 	}
 
 	#content {
-    	height: 965px;
+    	height: 1240px;
 	}
 }
